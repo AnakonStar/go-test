@@ -1,0 +1,38 @@
+# Environment
+.env
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+/bin/
+/build/
+/dist/
+/pkg/
+
+# Dependency vendor (uncomment if you don't commit vendor/)
+# /vendor/
+
+# Test / coverage
+coverage.out
+*.cover
+*.coverprofile
+
+# Go tool directories
+Godeps/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
