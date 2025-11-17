@@ -1,0 +1,16 @@
+out_dir: "./models"         # pasta de saída dos structs
+db_type: "mysql"            # tipo do banco
+host: "127.0.0.1"
+port: 3306
+user: "root"
+password: "minhasenha"
+database: "meubanco"
+
+# Tags adicionais
+table_prefix: ""             # prefixo opcional a remover
+is_json_tag: true            # gera tags JSON
+is_gorm_tag: true            # gera tags GORM
+is_web_tag: false            # tags extra (não necessário)
+is_null_to_point: true       # converte NULLs em ponteiros
+language: "go"
+
